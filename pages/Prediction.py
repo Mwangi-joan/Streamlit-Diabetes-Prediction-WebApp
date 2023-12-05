@@ -43,7 +43,7 @@ def main():
     # Input interface
     gender = st.radio("Gender", ["Male", "Female"])
     age = st.slider("Age", 1, 100, 25)
-    hypertension = st.radio("Hypertension/High Blood Pressure", ["No", "Yes"])
+    hypertension = st.radio("Hyperte/home/mwangi/PycharmProjects/StreamLit-DiaBeatItnsion/High Blood Pressure", ["No", "Yes"])
     heart_disease = st.radio("Heart Disease", ["No", "Yes"])
     smoking_history = st.radio("Smoking History", ["Non-Smoker", "Current Smoker", "Past Smoker"])
     bmi = st.slider("BMI", 10.0, 50.0, 25.0, 0.1)
